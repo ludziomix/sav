@@ -1,0 +1,14 @@
+cd "C:\Users\artur\Local Sites\savik\app\public\wp-content\uploads\simply-static\temp-files\simply-static-1-1751889836"
+
+git config --global user.name "ludziomix"
+git config --global user.email "ludzieimiejscamocy@gmail.com"
+
+git init
+git add .
+
+git commit -m "Initial commit"
+
+git branch -M main
+
+git remote add originhttps://github.com/ludziomix/sav.git
+git push -u origin main --force
